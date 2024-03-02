@@ -484,3 +484,160 @@
 四十四. 快速排序
 四十五. 计数排序
 四十六. 桶排序
+300. Linux的Hello world
+一. 快速入门Linux
+二. 安装软件包
+1）安装C和C++的编译器
+2）升级编译器
+3）安装库函数的帮助文档
+三. 编译
+301. 静态库和动态库
+一. 静态库
+1）制作静态库
+2）使用静态库
+3）静态库的概念
+4）静态库的特点
+二. 动态库
+1）制作动态库
+2）使用动态库
+3）动态库的概念
+4）动态库的特点
+三. 优先使用动态库
+四. 源代码
+1）tools/public.h
+2）tools/public.cpp
+3）app/demo01.cpp
+302. makefile
+一. app/demo01.cpp
+二. app/makefile
+三. tools/public.h
+四. tools/public.cpp
+五. tools/makefile
+六. api/myapi.h
+七. api/myapi.cpp
+八. api/makefile
+303. main函数的参数
+一. main函数的参数
+二. 操作环境变量
+1）设置环境变量
+2）获取环境变量的值
+三. 示例
+304. gdb的常用命令
+一. 安装gdb
+二. gdb常用命令
+三. 示例
+305. gdb调试core文件
+306. gdb调试正在运行中的程序
+307. Linux的时间操作
+一. time_t别名
+二. time()库函数
+三. tm结构体
+四. localtime()库函数
+五. mktime()库函数
+六. gettimeofday()库函数
+七. 程序睡眠
+308. Linux的目录操作
+一. 几个简单的目录操作函数
+1）获取当前工作目录
+2）切换工作目录
+3）创建目录
+4）删除目录
+二. 获取目录中文件的列表
+1）包含头文件
+2）相关的库函数
+3）数据结构
+310. Linux的系统错误
+一. strerror()库函数
+二. perror()库函数
+三. 注意事项
+1）调用库函数失败不一定会设置errno
+2）errno不能作为调用库函数失败的标志
+311. 目录和文件的更多操作
+一. access()库函数
+二. stat()库函数
+1）stat结构体
+2）stat()库函数
+三. utime()库函数
+四. rename()库函数
+五. remove()库函数
+312. Linux的信号
+一. 信号的基本概念 
+二. 信号的类型 
+三. 信号的处理 
+四. 信号有什么用
+五. 信号应用示例 
+六. 发送信号
+313. 进程终止
+一. 进程终止的状态
+二. 资源释放的问题
+三. 进程的终止函数
+314. 调用可执行程序
+一. system()函数
+二. exec函数族
+315. 创建进程
+一. Linux的0. 1和2号进程
+二. 进程标识
+三. fork()函数
+四. fork()的两种用法
+五. 共享文件
+六. vfork()函数
+316. 僵尸进程
+317. 多进程与信号
+321. 共享内存
+一. shmget函数
+二. shmat函数
+三. shmdt函数
+四. shmctl函数
+五. 示例
+322. 循环队列. 信号量. 生产/消费者模型的源代码
+一. demo1.cpp
+二. demo2.cpp
+三. demo3.cpp
+四. incache.cpp
+五. outcache.cpp
+六. _public.h
+七. _public.cpp
+八. makefile
+340. 第一个网络通讯程序
+一. 网络通讯的流程
+二. demo1.cpp
+三. demo2.cpp
+341. 基于Linux的文件操作
+一. demo3.cpp
+二. demo4.cpp
+342. socket函数详解
+一. 什么是协议
+二. 创建socket
+1）domain 通讯的协议家族
+2）type 数据传输的类型
+3）protocol 最终使用的协议
+三. TCP和UPD
+1）TCP和UDP的区别
+2）TCP保证自身可靠的方式
+3）UDP不可靠的原因
+4）TCP和UDP使用场景
+5）UDP能实现可靠传输吗？
+343. 主机字节序与网络字节序
+一. 大端序/小端序
+二. 网络字节序
+三. IP地址和通讯端口
+四. 如何处理大小端序
+344. 万恶的结构体
+一. sockaddr结构体
+二. sockaddr_in结构体
+三. gethostbyname函数
+四. 字符串IP与大端序IP的转换
+五. demo5.cpp
+六. demo5.cpp
+345. 封装socket
+一. demo7.cpp
+二. demo8.cpp
+349. 多进程的网络服务端
+一. demo10.cpp
+350. 实现文件传输功能
+一. demo11.cpp
+二. demo12.cpp
+351. 三次握手与四次挥手
+一. 三次握手
+二. 四次挥手（握手）
+352. TCP缓存
