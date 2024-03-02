@@ -1,7 +1,7 @@
 # 学习C++基础所写的代码.  
 #### 项目文件和代码统计:  
 
-![屏幕截图 2024-02-18 232828](https://github.com/NaNbNa/Cplusplus_trainingCode/assets/144761706/c17771db-18bc-4161-afba-9ed408d63268)
+![image](https://github.com/NaNbNa/Cplusplus_trainingCode/assets/144761706/2b153208-c23e-4959-8e0a-544107967ed7)
 ## 学习目录
 1. Windows开发环境的准备
 1）下载Visual Studio 2022安装文件
